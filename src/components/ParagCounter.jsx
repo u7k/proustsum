@@ -52,7 +52,7 @@ const ParagCounter = ({ paragCount, setParagCount }) => {
         color="primary"
         className="btn-group"
       >
-        <Button name="reduce" className={classes.button} onClick={reduceParags}>
+        <Button className={classes.button} onClick={reduceParags}>
           <RemoveIcon />
         </Button>
 
@@ -60,11 +60,7 @@ const ParagCounter = ({ paragCount, setParagCount }) => {
           {paragCount}
         </Button>
 
-        <Button
-          name="increase"
-          className={classes.button}
-          onClick={increaseParags}
-        >
+        <Button className={classes.button} onClick={increaseParags}>
           <AddIcon />
         </Button>
       </ButtonGroup>

@@ -131,7 +131,6 @@ const GenerateView = (props) => {
           <Tabs
             value={tabIndex}
             onChange={tabValueChanged}
-            aria-label="simple tabs example"
             className="tabs-row"
           >
             <Tab label="Character Count" {...tabProps(0)} />

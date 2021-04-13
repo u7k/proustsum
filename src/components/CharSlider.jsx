@@ -8,16 +8,6 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: "400px",
     height: "55px",
   },
-
-  createButton: {
-    backgroundColor: "#4a47a3",
-    color: "white",
-    width: "90%",
-    margin: "30px auto 0px auto",
-    "&:hover": {
-      backgroundColor: "#7868e6",
-    },
-  },
 }));
 
 const CharSlider = ({ charCount, setCharCount }) => {
